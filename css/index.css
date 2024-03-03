@@ -1,0 +1,19 @@
+:root {
+  --cor-fundo: #000000;
+  --cor-texto: #ffffff;
+  --cor-link: #ff00ff;
+}
+
+/* Aplicando as cores aos elementos da página */
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--cor-texto);
+}
